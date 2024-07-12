@@ -64,8 +64,18 @@ form label, form input, form textarea, form button {
     padding: 10px;
 }
 
-form button {
+button {
     background-color: #ffcccb;
     border: none;
+    padding: 10px 20px;
     cursor: pointer;
+}
+
+p#textToHighlight {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.highlighted {
+    background-color: pink;
 }
